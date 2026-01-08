@@ -16,7 +16,7 @@ Modeling Direction:
 
 VaR backtesting:
 
-Stress VaR (SVaR):
+Stress VaR (SVaR):/n
 Stressing period:
 
 
