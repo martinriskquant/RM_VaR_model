@@ -21,4 +21,4 @@ Stress VaR (SVaR):
   1. 2007-2008 crisis
   2. 2020-2022 covid
 
-Conditonal VaR:
+CVaR:
