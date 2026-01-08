@@ -13,3 +13,11 @@ Modeling Direction:
      - Case 2: assume the underlyings under the portfolio follow a joint distribution with a T-Distribution copula. (captured more tail risk than the Gaussian copula)
   Note that the Gaussian copula refers to the Wiener process under the GBM.
     - Case 3: time series model fit in for Spot changes and do the monte carlo
+
+VaR backtesting:
+
+Stress VaR (SVaR):
+Stressing period:
+
+
+Conditonal VaR:
