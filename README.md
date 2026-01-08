@@ -16,8 +16,9 @@ Modeling Direction:
 
 VaR backtesting:
 
-Stress VaR (SVaR):/n
-Stressing period:
-
+Stress VaR (SVaR):
+  Stressing period:
+  1. 2007-2008 crisis
+  2. 2020-2022 covid
 
 Conditonal VaR:
