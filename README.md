@@ -12,7 +12,7 @@ Modeling Direction:
      Path: GBM
      - Case 1: assume the underlyings under the portfolio follow a joint distribution with a Gaussian copula.
      - Case 2: assume the underlyings under the portfolio follow a joint distribution with a T-Distribution copula. (captured more tail risk than the Gaussian copula)
-     Path: Time series model
+     Path: Time series model\
     - Case 3: time series model fit in for Spot changes and do the monte carlo
 
 VaR backtesting:
