@@ -34,3 +34,9 @@ Stressing period:
 - 2020-2022 covid
 
 ### VaR backtesting:
+
+
+#### Key question????
+How to set up the limit for monitoring the risk ?
+- Based on your own capital to set certian % like 5% of total capital and your stragety risk and return ratio
+- Based on the nature of your company. If you are bank, there is a capital charge from Regulator. Your VaR limit can be restricted by the RWA
