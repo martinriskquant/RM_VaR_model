@@ -15,8 +15,8 @@ VaR provides a threshold for potential losses but does not indicate the severity
 ### VaR and CVaR Modeling Direction:
   1. Historical Approach
      - Linear portfolio & Non-linear portfolio
-       Based on the historical change of the risk factor for each instrument in your portfolio under a look back time window (defualt is 2 year according to basel standard and industry practise: is around 2yr -5yr) to project the portfolio value change. The simulated portfolio value change is the simulated PnL for the pre-defined time horizon. Based on the confident level you defined, the VaR is the percentile(1-confident interval)
-        - Possible risk factors: Spot price, FX spot price, Interest rate, Credit spread, Implied Vol etc which is depend on your instrument in your portfolio
+       Based on the historical change of the risk factor for each instrument in your portfolio under a look-back time window (default is 2 years according to Basel standard and industry practise: is around 2yr -5yr) to project the portfolio value change. The simulated portfolio value change is the simulated PnL for the pre-defined time horizon. Based on the confidence level you defined, the VaR is the percentile(1-confidence interval)
+        - Possible risk factors: Spot price, FX spot price, Interest rate, Credit spread, Implied Vol, etc., which depend on your instrument in your portfolio
    
   2. Variance-Covariance Approach
     
@@ -25,13 +25,13 @@ VaR provides a threshold for potential losses but does not indicate the severity
        - Case 1: assume the underlyings under the portfolio follow a joint distribution with a Gaussian copula.
        - Case 2: assume the underlyings under the portfolio follow a joint distribution with a T-Distribution copula. (captured more tail risk than the Gaussian copula)
      - Possible Case: Stock price is following a Time series model eg ARIMA-GARCH
-       - Case 3: time series model fit in for Spot changes and do the monte carlo
+       - Case 3: time series model fit in for Spot changes and do the Monte Carlo
 
 
 ### Stress VaR (SVaR):
-Stressing period:
+Stress period:
 - 2007-2008 crisis
-- 2020-2022 covid
+- 2020-2022 COVID
 
 ### VaR backtesting:
 
