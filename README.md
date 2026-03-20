@@ -34,8 +34,12 @@ Stress period:
 - 2020-2022 COVID
 
 ### VaR backtesting:
-
-
+Failure rate of exception case / count of breach between VaR and realized PnL with the alpha (eg CI:99% , alpha:1%)
+- Z test --> assume the failure rate --> follow binominal distribution --> when n(trading days) is large then trend to normal distribution
+- likelihood ratio test (Conditional Coverage test) =  - likelihood ratio test (unconditional Coverage test) + likelihood ratio test (independent test)
+Normality
+-JB test
+ 
 #### Key question????
 How to set up the limit for monitoring the risk ?
 - Based on your own capital to set certian % like 5% of total capital and your stragety risk and return ratio
